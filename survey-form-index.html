@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Orchard Empoyee Application</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Employee Application</h1>
+    <p id="description">Please provide the following information.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name:</label><input type="text" id="name" required placeholder="John Doe"></input>
+        <label id="email-label">Emal: <input type="email" id="email" required placeholder="name@web.com"></input></label>
+        <label id="number-label">Number: <input type="number" id="number" required min="0" max="10" placeholder="10"></input></label>
+        
+      </fieldset>
+      <fieldset>
+        <select id="dropdown">
+          <option>Full-time</option>
+          <option>Part-time</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <input type="radio" value="ture" name="truefalse">True</input>
+        <input type="radio" value="false" name="truefalse">False</input>
+      </fieldset>
+      <fieldset>
+        <input type="checkbox" value="agree"></input>
+        <input type="checkbox" value="read"></input>
+        <textarea rows="3" cols="30"></textarea>
+      </fieldset>
+      <input type="submit" id="submit"></input>
+   <form>
+  </body>
+</html>
